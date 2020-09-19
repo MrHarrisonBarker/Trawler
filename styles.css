@@ -1,0 +1,96 @@
+html {
+    width: max-content;
+    min-width: 300px;
+}
+
+body {
+    background: #DAE0E6;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(146,146,146);
+    text-decoration: underline;
+}
+
+#PostList {
+    display: flex;
+    flex-direction: column;
+}
+
+.Post {
+    /* padding: 0.5rem; */
+    display: flex;
+    flex-direction: row;
+    border-bottom: #adadad solid 1px;
+}
+
+.PostUps {
+    /* margin: auto 0; */
+    background: #F8F9FA;
+    width: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.PostInfo {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    background: white;
+    width: 100%;
+}
+
+.PostInfo > .PostHeading > .PostTitle {
+    font-size: medium;
+    color: rgb(34,34,34);
+    font-weight: 500;
+}
+.PostSubreddit {
+    font-style: italic;
+    color: rgb(28,28,28);
+    font-weight: 700;
+}
+
+#NoPosts {
+    background-color: #f2bfbf;
+    padding: 0.5rem;
+    font-size: medium;
+    color: #212121;
+}
+
+.PostHeading {
+    display: flex;
+    flex-direction: row;
+}
+
+.nsfw {
+    margin-left: 0.5rem;
+    color: rgb(255, 88, 91);
+    border: rgb(255, 88, 91) solid 1px;
+    border-radius: 2px;
+    padding: 0 4px;
+}
+
+.PostExtraInfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.PostCreated {
+    margin-left: 0.5rem;
+}
+
+#Contain {
+    display: flex;
+    flex-direction: column;
+}
+
+#autoSearchLabel {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
